@@ -10,7 +10,7 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession
 from var import Var
 load_dotenv("config.env")
-from userbot.javes_main.heroku_var import config
+from userbot.DetronBot_main.heroku_var import config
 
 sed = logging.getLogger("WARNING")
 sedprint = logging.getLogger("WARNING")
