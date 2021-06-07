@@ -234,14 +234,14 @@ else:
     
 from userbot import ALIVE_NAME
 from userbot import DEFAULTUSER
-JAVES_MSG = (f"Javes ")
+DetronBot_MSG = (f"Javes ")
 ORI_MSG = (f"Hello Sir, I can't allow you to {ALIVE_NAME}'s PM without his permissions please be patient, Thankyou ")
 BLOCK_MSG = (f"I am not going to allow you to spam {DEFAULTUSER}'s PM, You have been blocked ")
-JAVES_NNAME = str(JAVES_NAME) if JAVES_NAME else str(JAVES_MSG)
+DetronBot_NNAME = str(DetronBot_NAME) if DetronBot_NAME else str(DetronBot_MSG)
 AFK_MSG = (f"Hello Sir, {DEFAULTUSER} is offline Just leave Your message, Thankyou!")
 BIO_MSG = (f"")
 ALIVE_S_MSG = (f"I am Alone Survivor!")
-ALIVE_E_MSG = (f"Javes 2.0 Reloaded Extra Extremely🖕🏻 ")
+ALIVE_E_MSG = (f" DetronBot Reloaded Extra Extremely🖕🏻 ")
 
 if not os.path.exists('bin'):
     os.mkdir('bin')
